@@ -1,0 +1,30 @@
+
+
+.menu_home{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_opções{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    border-radius: 10px;
+    border-color: black;
+    border: solid;
+}
+
+a {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 25px;
+    text-decoration: none; 
+    color: black;
+    transition: .6s;
+}
+
