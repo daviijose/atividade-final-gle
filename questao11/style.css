@@ -1,0 +1,38 @@
+
+body {
+    height: 100vh;
+}
+
+.quadrado_main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.quadrado_objeto{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(112, 0, 112);
+    position: relative;
+    animation: rodar 3s  linear infinite ;
+    transition: all 5ms;
+    
+
+}
+
+@keyframes rodar {
+    0%{
+        transform: rotate(360deg);
+    }
+    50%{
+        width: 300px;
+        height: 300px;
+    }
+    100%{
+        width: 140px;
+        height: 140px;
+
+    }
+}

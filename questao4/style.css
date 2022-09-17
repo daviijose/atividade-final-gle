@@ -1,0 +1,31 @@
+
+body {
+    height: 100vh;
+}
+
+.circulo_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    height: 100%;
+}
+
+.circulo_objeto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(112, 0, 112);
+    position: relative;
+    animation:movimento 4s  linear;
+    animation-delay: 1s;
+}
+
+@keyframes movimento {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 500px;
+    }
+}

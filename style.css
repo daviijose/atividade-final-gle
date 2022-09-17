@@ -1,0 +1,36 @@
+body{
+    background-color:#332d27;
+}
+
+.principal{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna1{
+    height: 400px;
+    width: 400px;
+    background-color:#fae1c0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+a {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 25px;
+    text-decoration: none; 
+    color: black;
+    transition: .6s;
+}
+
+a:hover{
+    background-color:#332d27;
+    color: #fae1c0;
+    padding: 5px;
+}

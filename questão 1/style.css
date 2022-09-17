@@ -1,0 +1,20 @@
+
+
+.quadrado_main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+body {
+    height: 100vh;
+}
+
+.quadrado_objeto{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(123, 16, 145);
+    border-radius: 10px;
+}

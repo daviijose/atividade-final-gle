@@ -1,0 +1,39 @@
+
+body {
+    height: 100vh;
+}
+
+.circulo_main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.circulo_objeto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(112, 0, 112);
+}
+.circulo_objeto:hover{
+    animation: transicao 4s;
+}
+@keyframes transicao {
+    0%{
+        background-color:  rgb(50, 0, 83);
+        width: 200px;
+        height: 200px;
+    }
+    50%{
+        background-color: rgb(66, 171, 219);
+        width: 400px;
+        height: 400px;
+    }
+    100%{
+        background-color: rgb(50, 0, 83);
+        width: 200px;
+        height: 200px;
+    }
+}

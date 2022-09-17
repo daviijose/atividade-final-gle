@@ -1,0 +1,29 @@
+
+body{
+    height: 100vh;
+}
+
+.Cadastro_main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: aparecer 2s linear ;
+    transition: all 4ms;
+}
+.Login_main{
+    margin: 20px;
+}
+
+@keyframes aparecer {
+    0%{
+        top: -700px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+
